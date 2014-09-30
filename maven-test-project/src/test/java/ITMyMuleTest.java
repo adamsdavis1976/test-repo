@@ -25,6 +25,7 @@ public class ITMyMuleTest extends FunctionalTestCase
       //System.out.println("env port\n " +muleContext.getRegistry().toString());
       Assert.assertEquals(result.getPayloadAsString().startsWith("Hello World"), true);
  
+      //comment
      
     }
     
